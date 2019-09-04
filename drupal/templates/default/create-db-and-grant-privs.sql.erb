@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS <%= @database %>;
+
+/* implicitly creates user account if nonexistant */
+GRANT ALL PRIVILEGES ON <%= @database %>.* 
+TO '<%= @username %>'@'%' 
+IDENTIFIED BY '<%= @password %>';
+
+FLUSH PRIVILEGES;

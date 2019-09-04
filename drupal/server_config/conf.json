@@ -1,0 +1,16 @@
+{
+    "adhoc_settings": {
+        "drupal": {
+            "database": {
+                "username": "root",
+                "password": "",
+                "database_name": "",
+            }
+        },
+        "mysql": {
+            "hostname": "10.196.20.79",
+            "master_username": "root",
+            "master_password": ""
+        }
+    }
+}
