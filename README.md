@@ -1,2 +1,2 @@
 # wittyapps
-Witty Apps Drupal OpsWorks Chef Recipes
+Witty Apps Drupal OpsWorks Chef 12 Recipes
